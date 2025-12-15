@@ -16,7 +16,9 @@ Proyek ini bertujuan untuk melakukan **klasifikasi gambar motif batik** mengguna
 ## 📂 Dataset
 Dataset tersedia di Google Drive: **(https://www.kaggle.com/datasets/buyungsaloka/motif-batik-dataset)**
 
-Struktur direktori:
+---
+
+## 📑 Struktur direktori:
 
 ```
 
