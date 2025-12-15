@@ -41,7 +41,7 @@ archive/
 ```
 .
 ├─ README.md
-├─ notebooks/
+├─ Kode/
 │  └─ klasifikasi_batik.ipynb
 ├─ src/
 │  ├─ data.py           # utilitas data & eksplorasi
