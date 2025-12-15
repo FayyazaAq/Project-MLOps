@@ -16,9 +16,7 @@ Proyek ini bertujuan untuk melakukan **klasifikasi gambar motif batik** mengguna
 ## 📂 Dataset
 Dataset tersedia di Google Drive: **(https://www.kaggle.com/datasets/buyungsaloka/motif-batik-dataset)**
 
----
-
-## 📑 Struktur direktori:
+Struktur dataset:
 
 ```
 
@@ -38,16 +36,37 @@ archive/
 
 ```
 
+## 📑 Struktur Direktori
+
+```
+.
+├─ README.md
+├─ notebooks/
+│  └─ klasifikasi_batik.ipynb
+├─ src/
+│  ├─ data.py           # utilitas data & eksplorasi
+│  ├─ model.py          # arsitektur & compile
+│  ├─ train.py          # training + MLflow logging
+│  ├─ eval.py           # evaluasi & visualisasi
+│  └─ predict.py        # inferensi gambar
+├─ requirements.txt
+└─ artifacts/
+   ├─ best_model_MobileNetV2.h5
+   ├─ model_batik_mobilenetv2.keras
+   └─ mlruns/
+
+```
+
 ---
 
-# 🔧 Persyaratan
+## 🔧 Persyaratan
 * Python 3.8+
 * TensorFlow/Keras
 * scikit-learn
 * pandas, numpy, matplotlib, seaborn
 * mlflow
 
-# 👥 Kredit Tim
+## 👥 Kredit Tim
 Kelompok 11 — MLOps RB :
 * Amalia Melani Putri
 * Fayyaza Aqila Syafitri Achjar
